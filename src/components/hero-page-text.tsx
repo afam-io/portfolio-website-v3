@@ -4,18 +4,13 @@ import { TypewriterEffectSmooth } from './ui/typewriter-effect';
 export function HeroText() {
   const words = [
     {
-      text: 'Afam',
+      text: 'Welcome to',
       className: 'text-blue-500 dark:text-blue-500',
     },
+
     {
-      text: 'Okoh',
-      className: 'text-blue-500 dark:text-blue-500',
-    },
-    {
-      text: 'Portfolio',
-    },
-    {
-      text: 'Website',
+      text: 'Demo Website',
+      className: 'text-white',
     },
   ];
   return (

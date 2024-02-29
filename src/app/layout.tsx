@@ -16,8 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
-      <body>
+    <html
+      lang='en'
+      className='h-full scroll-smooth antialiased bg-transparent overflow-y-visible'>
+      <body className='flex h-full flex-col'>
         <SparklesBackground>{children}</SparklesBackground>
       </body>
     </html>

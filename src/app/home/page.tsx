@@ -2,9 +2,9 @@ import { HeroText } from '@/components/hero-page-text';
 
 const HeroPage = () => {
   return (
-    <main className='h-screen w-screen'>
+    <div className='bg-transparent'>
       <HeroText />
-    </main>
+    </div>
   );
 };
 
