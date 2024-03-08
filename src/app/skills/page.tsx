@@ -8,7 +8,6 @@ import { Container } from '@/components/container';
 
 const SkillsPage = () => {
   return (
-    // <Container>
     <div className='bg-transparent min-h-[40rem]'>
       <Swiper
         slidesPerView={5}
@@ -54,7 +53,6 @@ const SkillsPage = () => {
         ))}
       </Swiper>
     </div>
-    //    </Container>
   );
 };
 

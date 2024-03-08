@@ -4,7 +4,7 @@ import SkillsPage from './skills/page';
 
 export default function Home() {
   return (
-    <div className='h-full bg-[#121728] flex flex-col items-center justify-center rounded-md'>
+    <div className='h-full bg-black flex flex-col items-center justify-center rounded-md'>
       <main className='flex flex-col'>
         <HeroPage />
         <SkillsPage />

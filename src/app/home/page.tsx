@@ -2,7 +2,7 @@ import { HeroText } from '@/components/hero-page-text';
 
 const HeroPage = () => {
   return (
-    <div className='bg-transparent'>
+    <div className='bg-transparent h-screen'>
       <HeroText />
     </div>
   );
