@@ -1,11 +1,13 @@
-import { HeroText } from '@/components/hero-page-text';
+import HeroPage from '../../components/pages/hero-page';
 
-const HeroPage = () => {
+const HPage = () => {
   return (
-    <main className='h-screen w-screen'>
-      <HeroText />
-    </main>
+    <div className='bg-transparent hero h-screen w-screen'>
+      <div className='hero-content'>
+        <HeroPage />
+      </div>
+    </div>
   );
 };
 
-export default HeroPage;
+export default HPage;
