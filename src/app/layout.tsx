@@ -18,10 +18,12 @@ export default function RootLayout({
   return (
     <html
       lang='en'
-      className='h-full scroll-smooth antialiased bg-transparent overflow-y-visible'>
-      <body className='flex h-full flex-col'>
-        <SparklesBackground>{children}</SparklesBackground>
-      </body>
+      className='h-fit scroll-smooth antialiased bg-transparent overflow-y-scroll'>
+      <SparklesBackground>
+        <body className='bg-transparent h-auto w-auto '>
+          <SparklesBackground>{children}</SparklesBackground>
+        </body>
+      </SparklesBackground>
     </html>
   );
 }

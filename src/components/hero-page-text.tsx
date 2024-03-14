@@ -4,19 +4,19 @@ import { TypewriterEffectSmooth } from './ui/typewriter-effect';
 export function HeroText() {
   const words = [
     {
-      text: 'Welcome to',
+      text: 'Afam',
       className: 'text-blue-500 dark:text-blue-500',
     },
     {
-      text: 'Demo Site',
+      text: 'Okoh',
       className: 'text-white',
     },
   ];
 
   return (
     <div className='flex h-[40 rem] w-auto flex-col items-center justify-center'>
-      <p className='text-neutral-600 dark:text-neutral-200 text-xs sm:text-base'>
-        The road to freedom starts from here
+      <p className='text-neutral-600 dark:text-neutral-200 text-xs sm:text-base '>
+        My name is
       </p>
       <TypewriterEffectSmooth
         words={words}

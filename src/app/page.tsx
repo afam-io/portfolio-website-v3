@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div className='h-full w-full bg-black flex flex-col items-center justify-center bg-transparent rounded-md '>
       <main className='flex flex-col bg-transparent'>
-        <HPage />
-        {/* <SkillsPage /> */}
+        <HeroPage />
+        <SkillsPage />
       </main>
     </div>
   );
