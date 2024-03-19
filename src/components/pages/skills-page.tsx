@@ -1,14 +1,14 @@
 'use client';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { SkillData } from '../../constants';
+import { SkillData } from '../../../constants';
 import Image from 'next/image';
 import { Autoplay } from 'swiper/modules';
-import { Container } from '@/components/container';
 
 const SkillsPage = () => {
   return (
-    <div className='bg-transparent h-screen w-screen '>
+    <section className='bg-transparent h-screen w-screen p-5 '>
+      <h2 className='text-white text-4xl'> Skills</h2>
       <Swiper
         slidesPerView={5}
         loop={true}
@@ -53,7 +53,7 @@ const SkillsPage = () => {
         ))}
       </Swiper>
       Swi
-    </div>
+    </section>
   );
 };
 
